@@ -1,0 +1,25 @@
+# Website
+title:        Dr. med. Mirko Simovic
+subtitle:     Praxis f&uuml;r Gyn&auml;kologie und Geburtshilfe in St&auml;fa
+description:  Dr. med. Mirko Simovic - Praxis f&uuml;r Gyn&auml;kologie und Geburtshilfe in 8712 St&auml;fa, Goethestrasse 26, Tel. +41 44 796 32 32
+keywords:     Dr. med., Mirko, Simovic, Frauenarzt, Gyn&auml;kologie, Geburtshilfe, St&auml;fa, Z&uuml;rich, Schweiz, Goethezentrum, Spital M&auml;nnedorf, Frauenklinik, Frauenpraxis
+author:       Mirko Simovic
+timezone:     Europe/Zurich
+locale:       de-CH
+encoding:     utf-8
+url:          https://simovic.ch # the base hostname & protocol for your site
+
+# Jekyll
+markdown:           kramdown
+highlighter:        rouge
+include:            ["assets"]
+sass:
+  sass_dir:         _sass
+  style:            compressed
+gems:
+  - jekyll-sitemap
+  # - font-awesome-sass
+
+# Exclude/Include lists
+exclude: [README.md, Gemfile, Gemfile.lock, _site, nginx]
+include: ['.htaccess']
